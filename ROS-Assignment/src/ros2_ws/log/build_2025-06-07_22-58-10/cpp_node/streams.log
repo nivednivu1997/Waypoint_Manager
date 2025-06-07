@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[7.442s] [100%] [32m[1mLinking CXX executable waypoint_node[0m
+[7.936s] [100%] Built target waypoint_node
+[7.944s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[7.952s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thedush/Videos/ros2_ws/build/cpp_node
+[7.957s] -- Install configuration: ""
+[7.957s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node
+[7.960s] -- Set runtime path of "/home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node" to ""
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.sh
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.bash
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.sh
+[7.960s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+[7.961s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+[7.961s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.dsv
+[7.961s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[7.961s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[7.961s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[7.961s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.xml
+[7.963s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thedush/Videos/ros2_ws/build/cpp_node

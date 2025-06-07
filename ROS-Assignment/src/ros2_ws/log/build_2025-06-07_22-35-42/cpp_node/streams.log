@@ -1,0 +1,61 @@
+[0.007s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.387s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.530s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.942s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.944s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.977s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.109s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.110s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.284s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.292s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.303s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.313s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.318s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.353s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.461s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.488s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.489s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.491s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.507s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.598s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.639s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.719s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.720s] -- Configured cppcheck include dirs: /home/thedush/Videos/ros2_ws/src/cpp_node/include
+[1.720s] -- Configured cppcheck exclude dirs and/or files: 
+[1.720s] -- Added test 'lint_cmake' to check CMake code style
+[1.720s] -- Added test 'uncrustify' to check C / C++ code style
+[1.720s] -- Configured uncrustify additional arguments: 
+[1.720s] -- Added test 'xmllint' to check XML markup files
+[1.721s] -- Configuring done
+[1.731s] -- Generating done
+[1.738s] -- Build files have been written to: /home/thedush/Videos/ros2_ws/build/cpp_node
+[1.781s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[4.762s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::createWaypoint(bool, const string&)[m[K’:
+[4.762s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:50:21:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[4.762s]    50 |   double yaw = tf2::[01;31m[KgetYaw[m[K(last_pose_.orientation);
+[4.762s]       |                     [01;31m[K^~~~~~[m[K
+[4.763s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::timerCallback()[m[K’:
+[4.763s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:81:35:[m[K [01;31m[Kerror: [m[K‘[01m[KtoMsg[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[4.763s]    81 |   last_wp_pose.orientation = tf2::[01;31m[KtoMsg[m[K(q);
+[4.763s]       |                                   [01;31m[K^~~~~[m[K
+[4.764s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kdouble WaypointManager::calculateYawDifference(const Pose&, const Pose&)[m[K’:
+[4.764s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:22:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[4.764s]   105 |   double yaw1 = tf2::[01;31m[KgetYaw[m[K(p1.orientation);
+[4.764s]       |                      [01;31m[K^~~~~~[m[K
+[4.764s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:106:22:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[4.764s]   106 |   double yaw2 = tf2::[01;31m[KgetYaw[m[K(p2.orientation);
+[4.765s]       |                      [01;31m[K^~~~~~[m[K
+[4.769s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K At global scope:
+[4.769s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:173:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+[4.769s]   173 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[4.769s]       |     [01;31m[K^~~~[m[K
+[4.769s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:165:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+[4.769s]   165 | int [01;36m[Kmain[m[K(int argc, char **argv)
+[4.769s]       |     [01;36m[K^~~~[m[K
+[7.375s] gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+[7.375s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+[7.375s] gmake: *** [Makefile:146: all] Error 2
+[7.377s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8

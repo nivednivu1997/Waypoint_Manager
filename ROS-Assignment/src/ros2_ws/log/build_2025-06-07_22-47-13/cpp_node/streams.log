@@ -1,0 +1,18 @@
+[0.007s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[1.993s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::createWaypoint(bool, const string&)[m[K’:
+[1.993s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:50:21:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[1.993s]    50 |   double yaw = tf2::[01;31m[KgetYaw[m[K(last_pose_.orientation);
+[1.993s]       |                     [01;31m[K^~~~~~[m[K
+[1.995s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kdouble WaypointManager::calculateYawDifference(const Pose&, const Pose&)[m[K’:
+[1.995s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:22:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[1.995s]   105 |   double yaw1 = tf2::[01;31m[KgetYaw[m[K(p1.orientation);
+[1.995s]       |                      [01;31m[K^~~~~~[m[K
+[1.995s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:106:22:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[1.996s]   106 |   double yaw2 = tf2::[01;31m[KgetYaw[m[K(p2.orientation);
+[1.996s]       |                      [01;31m[K^~~~~~[m[K
+[4.112s] gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+[4.112s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+[4.112s] gmake: *** [Makefile:146: all] Error 2
+[4.114s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8

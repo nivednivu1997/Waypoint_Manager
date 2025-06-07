@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o: in function `WaypointManager::createWaypoint(bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+waypoint.cpp:(.text+0xc57): undefined reference to `WaypointManager::get_yaw(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)'
+/usr/bin/ld: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o: in function `WaypointManager::calculateYawDifference(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Pose_<std::allocator<void> > const&)':
+waypoint.cpp:(.text+0x12fb): undefined reference to `WaypointManager::get_yaw(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)'
+/usr/bin/ld: waypoint.cpp:(.text+0x131b): undefined reference to `WaypointManager::get_yaw(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:239: waypoint_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

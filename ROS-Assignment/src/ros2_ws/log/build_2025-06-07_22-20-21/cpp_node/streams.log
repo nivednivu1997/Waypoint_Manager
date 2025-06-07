@@ -1,0 +1,58 @@
+[0.104s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Videos/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Videos/ros2_ws/install/cpp_node
+[2.166s] -- The C compiler identification is GNU 11.4.0
+[2.971s] -- The CXX compiler identification is GNU 11.4.0
+[3.022s] -- Detecting C compiler ABI info
+[3.336s] -- Detecting C compiler ABI info - done
+[3.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.344s] -- Detecting C compile features
+[3.356s] -- Detecting C compile features - done
+[3.368s] -- Detecting CXX compiler ABI info
+[3.522s] -- Detecting CXX compiler ABI info - done
+[3.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.527s] -- Detecting CXX compile features
+[3.527s] -- Detecting CXX compile features - done
+[3.586s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.910s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.317s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.663s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.673s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.715s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.014s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.018s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.706s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.737s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.835s] -- Looking for pthread.h
+[6.128s] -- Looking for pthread.h - found
+[6.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.244s] -- Found Threads: TRUE  
+[6.559s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.650s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.714s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.765s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.042s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[7.159s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.596s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.713s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.716s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.716s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.750s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[7.924s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[7.971s] [31mCMake Error at CMakeLists.txt:46 (install):
+[7.971s]   install TARGETS given target "sensor_fusion_node" which does not exist.
+[7.971s] 
+[7.971s] [0m
+[7.993s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.340s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.340s] -- Configured cppcheck include dirs: 
+[8.340s] -- Configured cppcheck exclude dirs and/or files: 
+[8.342s] -- Added test 'lint_cmake' to check CMake code style
+[8.345s] -- Added test 'uncrustify' to check C / C++ code style
+[8.345s] -- Configured uncrustify additional arguments: 
+[8.346s] -- Added test 'xmllint' to check XML markup files
+[8.373s] -- Configuring incomplete, errors occurred!
+[8.373s] See also "/home/thedush/Videos/ros2_ws/build/cpp_node/CMakeFiles/CMakeOutput.log".
+[8.388s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Videos/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Videos/ros2_ws/install/cpp_node

@@ -1,0 +1,42 @@
+[0.007s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.274s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.917s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.522s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.548s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.590s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.002s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.006s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.524s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.548s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.590s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.620s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.652s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.703s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.079s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.104s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.107s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.128s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[3.237s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.510s] -- Configured cppcheck include dirs: /home/thedush/Videos/ros2_ws/src/cpp_node/include
+[3.510s] -- Configured cppcheck exclude dirs and/or files: 
+[3.512s] -- Added test 'lint_cmake' to check CMake code style
+[3.514s] -- Added test 'uncrustify' to check C / C++ code style
+[3.515s] -- Configured uncrustify additional arguments: 
+[3.515s] -- Added test 'xmllint' to check XML markup files
+[3.518s] -- Configuring done
+[3.698s] -- Generating done
+[3.729s] -- Build files have been written to: /home/thedush/Videos/ros2_ws/build/cpp_node
+[3.774s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[6.279s] In file included from [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:1[m[K:
+[6.279s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+[6.280s]     6 | #include [01;31m[K<visualization_msgs/msg/marker_array.hpp>[m[K
+[6.280s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.280s] compilation terminated.
+[6.284s] gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+[6.284s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+[6.284s] gmake: *** [Makefile:146: all] Error 2
+[6.288s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8

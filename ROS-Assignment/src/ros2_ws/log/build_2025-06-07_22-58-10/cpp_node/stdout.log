@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[100%] [32m[1mLinking CXX executable waypoint_node[0m
+[100%] Built target waypoint_node
+-- Install configuration: ""
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node
+-- Set runtime path of "/home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node" to ""
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.sh
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.bash
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.sh
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.dsv
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.xml

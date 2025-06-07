@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+In file included from [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:1[m[K:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:49:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   49 |   inline double get_yaw(const geometry_msgs::msg::Quaternion & q[01;31m[K)[m[K
+      |                                                                 [01;31m[K^[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:49:17:[m[K [01;35m[Kwarning: [m[Kinline function ‘[01m[Kdouble WaypointManager::get_yaw(const Quaternion&)[m[K’ used but never defined
+   49 |   inline double [01;35m[Kget_yaw[m[K(const geometry_msgs::msg::Quaternion & q)
+      |                 [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:1[m[K:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_srvs/srv/trigger.hpp: No such file or directory
+    7 | #include [01;31m[K<std_srvs/srv/trigger.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

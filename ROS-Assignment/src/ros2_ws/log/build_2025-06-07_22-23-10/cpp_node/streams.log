@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[0.050s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kwaypoint.hpp: No such file or directory
+[0.050s]     1 | #include [01;31m[K"waypoint.hpp"[m[K
+[0.050s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.050s] compilation terminated.
+[0.052s] gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+[0.053s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+[0.053s] gmake: *** [Makefile:146: all] Error 2
+[0.054s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8

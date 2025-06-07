@@ -1,0 +1,4 @@
+Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Videos/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Videos/ros2_ws/install/cpp_node
+Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Videos/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Videos/ros2_ws/install/cpp_node
+Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8

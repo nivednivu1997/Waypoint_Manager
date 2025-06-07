@@ -1,0 +1,2 @@
+Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Videos/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Videos/ros2_ws/install/cpp_node
+Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Videos/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Videos/ros2_ws/install/cpp_node

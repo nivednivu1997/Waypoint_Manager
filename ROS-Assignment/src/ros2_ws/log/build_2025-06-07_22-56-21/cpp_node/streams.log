@@ -1,0 +1,14 @@
+[0.007s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[7.330s] [100%] [32m[1mLinking CXX executable waypoint_node[0m
+[7.707s] /usr/bin/ld: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o: in function `WaypointManager::createWaypoint(bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[7.707s] waypoint.cpp:(.text+0xc57): undefined reference to `WaypointManager::get_yaw(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)'
+[7.707s] /usr/bin/ld: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o: in function `WaypointManager::calculateYawDifference(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Pose_<std::allocator<void> > const&)':
+[7.707s] waypoint.cpp:(.text+0x12fb): undefined reference to `WaypointManager::get_yaw(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)'
+[7.708s] /usr/bin/ld: waypoint.cpp:(.text+0x131b): undefined reference to `WaypointManager::get_yaw(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&)'
+[7.738s] collect2: error: ld returned 1 exit status
+[7.739s] gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:239: waypoint_node] Error 1
+[7.739s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+[7.740s] gmake: *** [Makefile:146: all] Error 2
+[7.741s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
