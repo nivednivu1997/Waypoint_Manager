@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[0.552s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[4.311s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::createWaypoint(bool, const string&)[m[K’:
+[4.311s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:71:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.312s]    71 |   double [01;35m[Kx[m[K = current_pose_.position.x;
+[4.312s]       |          [01;35m[K^[m[K
+[4.312s] [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:72:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.312s]    72 |   double [01;35m[Ky[m[K = current_pose_.position.y;
+[4.312s]       |          [01;35m[K^[m[K
+[13.384s] [100%] [32m[1mLinking CXX executable waypoint_node[0m
+[14.392s] [100%] Built target waypoint_node
+[14.403s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[14.414s] Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thedush/Videos/ros2_ws/build/cpp_node
+[14.422s] -- Install configuration: ""
+[14.453s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node
+[14.457s] -- Set runtime path of "/home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node" to ""
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.sh
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.dsv
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.bash
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.sh
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.zsh
+[14.457s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.dsv
+[14.458s] -- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.dsv
+[14.458s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node
+[14.458s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake
+[14.458s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake
+[14.458s] -- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.xml
+[14.459s] Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thedush/Videos/ros2_ws/build/cpp_node

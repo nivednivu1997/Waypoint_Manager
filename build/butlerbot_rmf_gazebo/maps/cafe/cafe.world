@@ -1,0 +1,193 @@
+<sdf version="1.7">
+  <world name="world">
+    <scene>
+      <ambient>0.8 0.8 0.8 1.0</ambient>
+      <background>0 0 0</background>
+      <grid>false</grid>
+    </scene>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <gui>
+      <camera name="gui_camera">
+        <pose>6.010132830201393 -25.012364916654732 10 0 0.6 1.57</pose>
+      </camera>
+      <plugin name="toggle_charging" filename="libtoggle_charging.so" />
+      <plugin name="toggle_floors" filename="libtoggle_floors.so">
+        <floor name="L1" model_name="cafe_L1">
+          <model name="OpenRobotics/Chair" />
+          <model name="OpenRobotics/AdjTable" />
+          <model name="OpenRobotics/AdjTable_2" />
+          <model name="OpenRobotics/AdjTable_3" />
+          <model name="OpenRobotics/Chair_2" />
+          <model name="OpenRobotics/Chair_3" />
+          <model name="OpenRobotics/Chair_4" />
+          <model name="OpenRobotics/Chair_5" />
+          <model name="OpenRobotics/Chair_6" />
+          <model name="OpenRobotics/Chair_7" />
+          <model name="OpenRobotics/Chair_8" />
+          <model name="OpenRobotics/Chair_9" />
+          <model name="OpenRobotics/Chair_10" />
+          <model name="OpenRobotics/Chair_11" />
+          <model name="OpenRobotics/Chair_12" />
+          <model name="null" />
+        </floor>
+      </plugin>
+    </gui>
+    <include>
+      <name>OpenRobotics/Chair</name>
+      <uri>model://Chair</uri>
+      <pose>1.829064292512824 -2.7636094101395683 0.0 0 0 0.0233</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/AdjTable</name>
+      <uri>model://AdjTable</uri>
+      <pose>2.4781718790798752 -3.062439459919308 0.0 0 0 1.5708</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/AdjTable_2</name>
+      <uri>model://AdjTable</uri>
+      <pose>5.555873756559386 -3.062439459919308 0.0 0 0 1.5708</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/AdjTable_3</name>
+      <uri>model://AdjTable</uri>
+      <pose>8.485752550053485 -3.022565130598115 0.0 0 0 1.5708</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_2</name>
+      <uri>model://Chair</uri>
+      <pose>3.158815056897147 -2.753097546389495 0.0 0 0 3.1334</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_3</name>
+      <uri>model://Chair</uri>
+      <pose>3.1535591250221104 -3.4860473539246817 0.0 0 0 3.1408</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_4</name>
+      <uri>model://Chair</uri>
+      <pose>1.8080911028191673 -3.4703300961060624 0.0 0 0 0.0192</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_5</name>
+      <uri>model://Chair</uri>
+      <pose>4.9073726236702235 -2.7583534782645316 0.0 0 0 -0.0424</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_6</name>
+      <uri>model://Chair</uri>
+      <pose>4.886449971783057 -3.4546633760939334 0.0 0 0 -0.0104</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_7</name>
+      <uri>model://Chair</uri>
+      <pose>6.242328782123093 -3.496508679868265 0.0 0 0 3.1193</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_8</name>
+      <uri>model://Chair</uri>
+      <pose>6.221406130235927 -2.7583534782645316 0.0 0 0 -3.1198</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_9</name>
+      <uri>model://Chair</uri>
+      <pose>7.799297524489778 -2.6609671251568776 0.0 0 0 -0.0155</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_10</name>
+      <uri>model://Chair</uri>
+      <pose>7.788128669255325 -3.3757738601618894 0.0 0 0 -0.0345</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_11</name>
+      <uri>model://Chair</uri>
+      <pose>9.1841850357555 -2.6609671251568776 0.0 0 0 3.1206</pose>
+      <static>True</static>
+    </include>
+    <include>
+      <name>OpenRobotics/Chair_12</name>
+      <uri>model://Chair</uri>
+      <pose>9.18979473227597 -3.3981115706307965 0.0 0 0 -3.1356</pose>
+      <static>True</static>
+    </include>
+    <model name="null">
+      <pose>1.5656865139863378 -10.003099652131432 0.0 0 0 3.141592653589793</pose>
+      <link name="right">
+        <pose>0 0 1.11 0 0 0</pose>
+        <visual name="right_visual">
+          <geometry>
+            <box>
+              <size>0.9159031527168282 0.03 2.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.25 0 0.6</ambient>
+            <diffuse>0.5 0.25 0 0.6</diffuse>
+          </material>
+        </visual>
+        <collision name="right_collision">
+          <geometry>
+            <box>
+              <size>0.9159031527168282 0.03 2.2</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>0x02</collide_bitmask>
+            </contact>
+          </surface>
+        </collision>
+        <inertial>
+          <mass>50.0</mass>
+          <inertia>
+            <ixx>20.17041666666667</ixx>
+            <iyy>23.66199410481928</iyy>
+            <izz>3.4990774381526064</izz>
+          </inertia>
+        </inertial>
+      </link>
+      <joint name="right_joint" type="revolute">
+        <parent>world</parent>
+        <child>right</child>
+        <axis>
+          <xyz>0 0 -1</xyz>
+          <limit>
+            <lower>0</lower>
+            <upper>2.7911111111111113</upper>
+          </limit>
+        </axis>
+        <pose>0.4629515763584141 0 0 0 0 0</pose>
+      </joint>
+      <plugin name="door" filename="libdoor.so">
+        <v_max_door>0.5</v_max_door>
+        <a_max_door>0.3</a_max_door>
+        <a_nom_door>0.15</a_nom_door>
+        <dx_min_door>0.01</dx_min_door>
+        <f_max_door>500.0</f_max_door>
+        <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+      </plugin>
+    </model>
+    <include>
+      <name>cafe_L1</name>
+      <uri>model://cafe_L1</uri>
+      <pose>0 0 0.0 0 0 0</pose>
+    </include>
+    <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="home" x="4.390522476689437" y="-9.392602949723306" level="L1" />
+    </rmf_charger_waypoints>
+  </world>
+</sdf>

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bdee3bbde0ca099a55dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "butlerbot_rmf_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "butlerbot_rmf_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-butlerbot_rmf_gazebo_uninstall-99905b53bb29a3249c31.json",
+					"name" : "butlerbot_rmf_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_cafe_crowdsim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_cafe_crowdsim-3e5bd8b69e9406b079c8.json",
+					"name" : "generate_cafe_crowdsim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_cafe_nav_graphs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_cafe_nav_graphs-46daf0d1bab818ad83cf.json",
+					"name" : "generate_cafe_nav_graphs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d8211045d0b032205f3c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo",
+		"source" : "/home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

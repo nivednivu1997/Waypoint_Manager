@@ -1,0 +1,176 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo
+[ 33%] [34m[1mGenerating maps/cafe/cafe.world[0m
+[ 66%] [34m[1mGenerating maps/cafe/nav_graphs/phony[0m
+generating /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world from /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml
+building name: cafe
+coordinate system: reference_image
+building name: cafe
+parsing level L1
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.05053780649073895
+calculating levels relative to L1
+level L1 scale: 0.05053780649073895
+generating nav data
+generating model of level L1 in /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1
+writing /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/nav_graphs/0.yaml
+  wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.config
+generating floor polygon 1 on floor cafe_L1
+hole vertices: []
+lift vertices: {}
+/opt/ros/humble/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:
+[[0, 19, 18], [0, 18, 15], [0, 15, 4], [0, 4, 3], [0, 3, 1], [1, 3, 2], [17, 16, 20], [17, 20, 15], [17, 15, 18], [15, 14, 4], [4, 14, 5], [5, 14, 6], [6, 14, 13], [6, 13, 8], [6, 8, 7], [10, 9, 11], [11, 9, 12], [12, 9, 8], [12, 8, 21], [8, 13, 21]]
+  wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.obj
+  wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/blue_linoleum.png
+  wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.mtl
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7eb226011ae0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7eb2260119c0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7eb2260119f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7eb226011870>, 'texture_width': <building_map.param_value.ParamValue object at 0x7eb2260116f0>}]
+generating wall: 1 on floor: cafe_L1
+  wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/default.png
+generate_wall_visual_mesh(cafe_L1, /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1)
+  generating /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.obj
+  generating /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.mtl
+  wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.sdf
+generator options: ['gazebo']
+generate door name=null type=hinged
+Door(null)
+6483 bytes written to /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world
+[ 66%] Built target generate_cafe_nav_graphs
+building name: cafe
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+level L1 scale: 0.05053780649073895
+Models: [] are used in crowd_sim
+Load success!
+
+Cache found! Model count: 3005 
+Updating cache...
+Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+Fetching page: 1
+Cached model found! Halting Fuel traversal...
+Writing to cache: /home/thedush/.pit_crew/model_cache.json
+New models cached: 0
+
+WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+ERROR::pit_crew.get_model_name_tuple():368: Could not parse model.config file! 'NoneType' object has no attribute 'find'
+WARNING::pit_crew.get_missing_models():224: Model AdjTable in local model directory is not by the requested author OpenRobotics!
+WARNING::pit_crew.get_missing_models():224: Model Chair in local model directory is not by the requested author OpenRobotics!
+
+== REQUESTED MODEL REPORT ==
+{'available': [('AdjTable', ['/home/thedush/.gazebo/models/AdjTable/']),
+               ('Chair', ['/home/thedush/.gazebo/models/Chair/'])],
+ 'downloadable': [],
+ 'missing': []}
+
+== THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+{'adjtable': 'openrobotics', 'chair': 'openrobotics'}
+
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/thedush/.gazebo/models/AdjTable already exists, skipping...
+WARNING::building_map_model_downloader.export_downloaded_model():85: /home/thedush/.gazebo/models/Chair already exists, skipping...
+[100%] [34m[1mGenerating cafe_crowdsim[0m
+Creating output folder path:  /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/config_resource/
+crowdsim unable to parse, not attempting to proceed
+crowdsim unable to parse, not attempting to proceed
+[100%] Built target generate_cafe_crowdsim
+-- Install configuration: ""
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/launch
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/launch/simulation.launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/launch/cafe.launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe.building.yaml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable_Col.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable_Diffuse.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable_Col.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair_SpecGloss.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair_Diffuse.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair_Normal.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/wall_1.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/blue_linoleum.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/default.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/model.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/floor_1.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/floor_1.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/wall_1.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/ament_index/resource_index/package_run_dependencies/butlerbot_rmf_gazebo
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/ament_index/resource_index/parent_prefix_path/butlerbot_rmf_gazebo
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/path.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/path.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.bash
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.zsh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/package.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/ament_index/resource_index/packages/butlerbot_rmf_gazebo
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/cmake/butlerbot_rmf_gazeboConfig.cmake
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/cmake/butlerbot_rmf_gazeboConfig-version.cmake
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/package.xml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/blue_linoleum.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/default.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/model.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/nav_graphs
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/nav_graphs/0.yaml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/config_resource
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/cafe.world

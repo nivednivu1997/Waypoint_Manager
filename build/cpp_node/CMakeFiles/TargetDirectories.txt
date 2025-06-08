@@ -1,0 +1,10 @@
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/uninstall.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/cpp_node_uninstall.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/waypoint_node.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/test.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/edit_cache.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/rebuild_cache.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/list_install_components.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/install.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/install/local.dir
+/home/thedush/Waypoint_Manager/build/cpp_node/CMakeFiles/install/strip.dir

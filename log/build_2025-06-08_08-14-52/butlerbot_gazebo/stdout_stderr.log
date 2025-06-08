@@ -1,0 +1,589 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/thedush/Waypoint_Manager/build/butlerbot_gazebo
+-- Install configuration: ""
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch/gazebo.launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch/simulation.launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch/spawn_robot.launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/meshes/diningchair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/thumbnails/DiningChair.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures/DiningChair_Roughness.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures/DiningChair_Albedo.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures/DiningChair_Normal.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/eyeball.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/pupil.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/human.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/eye_eyebrow.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/skeleton_no_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/scripts/skin_m_3.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/scripts/hair_m_3.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/meshes/plant.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/meshes/lamp_head.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/meshes/lamp_base.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/eyeball.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/pupil.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/human.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/eye_eyebrow.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/skeleton_no_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/scripts/skin_m_4.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/scripts/hair_m_4.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/scripts/Floor.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl6.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd5.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd8.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd6.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd7.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl5.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp8.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd2.gif
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp7.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp6.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/script
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/script/rug_ivory_2m.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/textures/rug_ivory_469x588.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/female.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyes_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyeballs.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyes_makeup.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/teeth.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/head_full.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/lips.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/pupils.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/belt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/cloths.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/scripts/skin_3.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/scripts/hair_3.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes/KitchenCountertop_Diffuse.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes/KitchenCountertop.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes/KitchenCountertop.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/meshes/leaf.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/eyeball.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/pupil.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/human.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/eye_eyebrow.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/skeleton_no_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/scripts/hair_m_2.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/scripts/skin_m_2.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/eyeball.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/pupil.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/human.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/eye_eyebrow.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/skeleton_no_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/scripts/skin_m_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/scripts/hair_m_1_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/meshes/diningtable.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/thumbnails/DiningTable.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures/Wood_Roughness.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures/Wood_Normal.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures/Wood_Albedo.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/female.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyes_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyeballs.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyes_makeup.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/teeth.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/head_full.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/lips.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/pupils.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/belt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/cloths.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/scripts/skin_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/scripts/hair_1_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge_Diffuse.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge_Col.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge_Col.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/meshes/leaf.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/female.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyes_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyeballs.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyes_makeup.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/teeth.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/head_full.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/lips.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/pupils.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/belt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/cloths.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/scripts/skin_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/scripts/hair_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/eyeball.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/pupil.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/human.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/eye_eyebrow.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/skeleton_no_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/scripts/skin_m_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/scripts/hair_m_1.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/model-1_4.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/meshes/table_lightmap.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/scripts/table_lightmap.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/textures/marble.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/textures/table_lightmap.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/meshes/leaf2.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/female.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyes_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyeballs.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyes_makeup.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/teeth.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/head_full.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/lips.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/pupils.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/belt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/cloths.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/scripts/hair_2.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/scripts/skin_2.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/meshes/leaf2.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes/pot_base.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes/pot_soil.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes/full.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/meshes/kitchenSink.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/meshes/kitchenSink.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/meshes/coffee_maker.mtl
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/meshes/coffee_maker.obj
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/4.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/3.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/2.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/1.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/materials/textures/coffee_maker.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/scripts/Floor_room.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/scripts/Floor.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp5.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl6.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd5.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd8.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd6.png
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd7.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl5.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp8.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd2.gif
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp7.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp6.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/female.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyes_hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/skeleton.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyeballs.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/shirt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/pants.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/skin.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/lenses.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyes_makeup.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/hair.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/teeth.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/head_full.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/lips.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/pupils.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/shoes.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/belt.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/model.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyebrows.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/cloths.dae
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/model.sdf
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/scripts
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/scripts/hair_4.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/scripts/skin_4.material
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_1.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_4.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_3.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_2.jpg
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/model.config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/rviz
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/rviz/display.rviz
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/french_door_cafe.world
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/empty.world
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/cafe.world
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/coffeshop.world
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/ament_index/resource_index/package_run_dependencies/butlerbot_gazebo
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/ament_index/resource_index/parent_prefix_path/butlerbot_gazebo
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/path.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/path.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.bash
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.zsh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/package.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/ament_index/resource_index/packages/butlerbot_gazebo
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/cmake/butlerbot_gazeboConfig.cmake
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/cmake/butlerbot_gazeboConfig-version.cmake
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/package.xml

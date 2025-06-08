@@ -1,0 +1,182 @@
+[0.052s] Invoking command in '/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo -DCMAKE_INSTALL_PREFIX=/home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo
+[1.847s] -- The C compiler identification is GNU 11.4.0
+[2.606s] -- The CXX compiler identification is GNU 11.4.0
+[2.639s] -- Detecting C compiler ABI info
+[2.873s] -- Detecting C compiler ABI info - done
+[2.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.880s] -- Detecting C compile features
+[2.907s] -- Detecting C compile features - done
+[2.918s] -- Detecting CXX compiler ABI info
+[3.051s] -- Detecting CXX compiler ABI info - done
+[3.058s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.058s] -- Detecting CXX compile features
+[3.058s] -- Detecting CXX compile features - done
+[3.159s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.547s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.055s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models[0m
+[4.055s] [0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml[0m
+[4.055s] -- Configuring done
+[4.060s] -- Generating done
+[4.062s] -- Build files have been written to: /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo
+[4.068s] Invoked command in '/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo -DCMAKE_INSTALL_PREFIX=/home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo
+[4.070s] Invoking command in '/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo -- -j8 -l8
+[4.131s] [ 33%] [34m[1mGenerating maps/cafe/cafe.world[0m
+[4.132s] [ 66%] [34m[1mGenerating maps/cafe/nav_graphs/phony[0m
+[20.634s] generating /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world from /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml
+[20.673s] building name: cafe
+[20.674s] coordinate system: reference_image
+[20.674s] building name: cafe
+[20.674s] parsing level L1
+[20.674s] coordinate system: reference_image
+[20.674s] parsing level L1
+[20.674s] calculating levels relative to L1
+[20.674s] level L1 scale: 0.05053780649073895
+[20.674s] calculating levels relative to L1
+[20.674s] level L1 scale: 0.05053780649073895
+[20.730s] generating nav data
+[20.731s] generating model of level L1 in /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1
+[20.731s] writing /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/nav_graphs/0.yaml
+[20.731s]   wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.config
+[20.731s] generating floor polygon 1 on floor cafe_L1
+[20.732s] hole vertices: []
+[20.732s] lift vertices: {}
+[20.737s] /opt/ros/humble/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+[20.737s]   for item in geom:
+[20.769s] [[0, 19, 18], [0, 18, 15], [0, 15, 4], [0, 4, 3], [0, 3, 1], [1, 3, 2], [17, 16, 20], [17, 20, 15], [17, 15, 18], [15, 14, 4], [4, 14, 5], [5, 14, 6], [6, 14, 13], [6, 13, 8], [6, 8, 7], [10, 9, 11], [11, 9, 12], [12, 9, 8], [12, 8, 21], [8, 13, 21]]
+[20.770s]   wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.obj
+[20.890s]   wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/blue_linoleum.png
+[20.890s]   wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.mtl
+[20.890s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7eb226011ae0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7eb2260119c0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7eb2260119f0>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7eb226011870>, 'texture_width': <building_map.param_value.ParamValue object at 0x7eb2260116f0>}]
+[20.890s] generating wall: 1 on floor: cafe_L1
+[20.932s]   wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/default.png
+[20.932s] generate_wall_visual_mesh(cafe_L1, /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1)
+[20.932s]   generating /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.obj
+[20.936s]   generating /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.mtl
+[20.936s]   wrote /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.sdf
+[20.936s] generator options: ['gazebo']
+[20.937s] generate door name=null type=hinged
+[20.937s] Door(null)
+[20.959s] 6483 bytes written to /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world
+[21.845s] [ 66%] Built target generate_cafe_nav_graphs
+[22.186s] building name: cafe
+[22.186s] coordinate system: reference_image
+[22.186s] parsing level L1
+[22.186s] calculating levels relative to L1
+[22.186s] level L1 scale: 0.05053780649073895
+[22.230s] Models: [] are used in crowd_sim
+[22.328s] Load success!
+[22.328s] 
+[22.328s] Cache found! Model count: 3005 
+[22.328s] Updating cache...
+[22.328s] Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+[22.328s] Fetching page: 1
+[31.560s] Cached model found! Halting Fuel traversal...
+[31.560s] Writing to cache: /home/thedush/.pit_crew/model_cache.json
+[31.677s] New models cached: 0
+[31.677s] 
+[31.678s] WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+[32.928s] ERROR::pit_crew.get_model_name_tuple():368: Could not parse model.config file! 'NoneType' object has no attribute 'find'
+[33.053s] WARNING::pit_crew.get_missing_models():224: Model AdjTable in local model directory is not by the requested author OpenRobotics!
+[33.053s] WARNING::pit_crew.get_missing_models():224: Model Chair in local model directory is not by the requested author OpenRobotics!
+[33.055s] 
+[33.056s] == REQUESTED MODEL REPORT ==
+[33.056s] {'available': [('AdjTable', ['/home/thedush/.gazebo/models/AdjTable/']),
+[33.056s]                ('Chair', ['/home/thedush/.gazebo/models/Chair/'])],
+[33.056s]  'downloadable': [],
+[33.057s]  'missing': []}
+[33.057s] 
+[33.057s] == THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+[33.057s] {'adjtable': 'openrobotics', 'chair': 'openrobotics'}
+[33.057s] 
+[33.057s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/thedush/.gazebo/models/AdjTable already exists, skipping...
+[33.057s] WARNING::building_map_model_downloader.export_downloaded_model():85: /home/thedush/.gazebo/models/Chair already exists, skipping...
+[33.106s] [100%] [34m[1mGenerating cafe_crowdsim[0m
+[33.867s] Creating output folder path:  /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/config_resource/
+[34.041s] crowdsim unable to parse, not attempting to proceed
+[34.081s] crowdsim unable to parse, not attempting to proceed
+[34.131s] [100%] Built target generate_cafe_crowdsim
+[34.296s] Invoked command in '/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo -- -j8 -l8
+[34.298s] Invoking command in '/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo
+[34.309s] -- Install configuration: ""
+[34.309s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/launch
+[34.522s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/launch/simulation.launch.py
+[34.606s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/launch/cafe.launch.py
+[34.629s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps
+[34.629s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe.building.yaml
+[34.629s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe.png
+[34.629s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models
+[34.630s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable
+[34.630s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes
+[34.691s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable_Col.obj
+[34.691s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable_Diffuse.png
+[34.760s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable.mtl
+[34.760s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable_Col.mtl
+[34.760s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/meshes/AdjTable.obj
+[34.761s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails
+[34.761s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/4.png
+[34.801s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/5.png
+[34.801s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/3.png
+[34.811s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/2.png
+[34.822s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/thumbnails/1.png
+[34.823s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/model.sdf
+[34.824s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/AdjTable/model.config
+[34.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair
+[34.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes
+[34.826s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair_SpecGloss.png
+[34.871s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair.mtl
+[34.871s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair_Diffuse.png
+[35.140s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair_Normal.png
+[35.404s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair.png
+[35.425s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/meshes/Chair.obj
+[35.426s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails
+[35.577s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/4.png
+[35.596s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/5.png
+[35.628s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/3.png
+[35.643s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/2.png
+[35.695s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/thumbnails/1.png
+[35.703s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/model.sdf
+[35.706s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/Chair/model.config
+[35.740s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1
+[35.741s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes
+[35.750s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/wall_1.obj
+[35.751s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/blue_linoleum.png
+[35.799s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/default.png
+[35.799s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/model.material
+[35.800s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/floor_1.mtl
+[35.800s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/floor_1.obj
+[35.800s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/meshes/wall_1.mtl
+[35.801s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/model.sdf
+[35.801s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/models/cafe_L1/model.config
+[35.802s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/ament_index/resource_index/package_run_dependencies/butlerbot_rmf_gazebo
+[35.802s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/ament_index/resource_index/parent_prefix_path/butlerbot_rmf_gazebo
+[35.802s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/ament_prefix_path.sh
+[35.802s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/ament_prefix_path.dsv
+[35.803s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/path.sh
+[35.803s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/environment/path.dsv
+[35.803s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.bash
+[35.804s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.sh
+[35.804s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.zsh
+[35.804s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/local_setup.dsv
+[35.804s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/package.dsv
+[35.805s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/ament_index/resource_index/packages/butlerbot_rmf_gazebo
+[35.805s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/cmake/butlerbot_rmf_gazeboConfig.cmake
+[35.805s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/cmake/butlerbot_rmf_gazeboConfig-version.cmake
+[35.806s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/package.xml
+[35.806s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe
+[35.806s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models
+[35.806s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1
+[35.807s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes
+[35.807s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.obj
+[35.807s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/blue_linoleum.png
+[35.807s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/default.png
+[35.808s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/model.material
+[35.808s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.mtl
+[35.808s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/floor_1.obj
+[35.808s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/meshes/wall_1.mtl
+[35.808s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.sdf
+[35.809s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/models/cafe_L1/model.config
+[35.809s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/nav_graphs
+[35.809s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/nav_graphs/0.yaml
+[35.809s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/config_resource
+[35.809s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_rmf_gazebo/share/butlerbot_rmf_gazebo/maps/cafe/cafe.world
+[35.813s] Invoked command in '/home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo

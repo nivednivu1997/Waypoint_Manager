@@ -1,0 +1,86 @@
+building_name: cafe
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {speed_limit: 0}
+    - - 1
+      - 0
+      - {speed_limit: 0}
+    - - 1
+      - 2
+      - {speed_limit: 0}
+    - - 2
+      - 1
+      - {speed_limit: 0}
+    - - 2
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 2
+      - {speed_limit: 0}
+    - - 3
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 3
+      - {speed_limit: 0}
+    - - 4
+      - 5
+      - {speed_limit: 0}
+    - - 5
+      - 4
+      - {speed_limit: 0}
+    - - 5
+      - 6
+      - {speed_limit: 0}
+    - - 6
+      - 5
+      - {speed_limit: 0}
+    - - 7
+      - 3
+      - {speed_limit: 0}
+    - - 3
+      - 7
+      - {speed_limit: 0}
+    - - 8
+      - 4
+      - {speed_limit: 0}
+    - - 4
+      - 8
+      - {speed_limit: 0}
+    - - 9
+      - 2
+      - {is_bidirectional: false, orientation_constraint: backward, speed_limit: 0}
+    vertices:
+    - - 2.423388896843914
+      - -4.649831961793419
+      - {name: table_1}
+    - - 2.423388896843914
+      - -5.922576080456188
+      - {name: ''}
+    - - 4.422310756972111
+      - -5.930055675816817
+      - {name: ''}
+    - - 5.530352164281563
+      - -5.937535271177446
+      - {name: ''}
+    - - 8.554938807139306
+      - -5.939405170017604
+      - {name: ''}
+    - - 11.390514053721688
+      - -5.939405170017604
+      - {name: ''}
+    - - 11.390514053721688
+      - -6.912662247416256
+      - {name: kitchen}
+    - - 5.537831759642192
+      - -4.62739317571153
+      - {name: table_2}
+    - - 8.547459211778678
+      - -4.649831961793419
+      - {name: table_3}
+    - - 4.390522476689437
+      - -9.392602949723306
+      - {is_charger: true, is_parking_spot: true, name: home}

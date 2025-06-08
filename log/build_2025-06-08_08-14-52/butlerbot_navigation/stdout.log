@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/thedush/Waypoint_Manager/build/butlerbot_navigation
+-- Install configuration: ""
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/config
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/config/nav2_params.yaml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/launch
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/launch/navigation.launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/launch/rviz_launch.py
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/rviz
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/rviz/navigation.rviz
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map/map1.yaml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map/map1.pgm
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map/map2.pgm
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map/map2.yaml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map/cafe_rmf.pgm
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/map/cafe_rmf.yaml
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/ament_index/resource_index/package_run_dependencies/butlerbot_navigation
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/ament_index/resource_index/parent_prefix_path/butlerbot_navigation
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/environment/path.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/environment/path.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/local_setup.bash
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/local_setup.sh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/local_setup.zsh
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/local_setup.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/package.dsv
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/ament_index/resource_index/packages/butlerbot_navigation
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/cmake/butlerbot_navigationConfig.cmake
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/cmake/butlerbot_navigationConfig-version.cmake
+-- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_navigation/share/butlerbot_navigation/package.xml

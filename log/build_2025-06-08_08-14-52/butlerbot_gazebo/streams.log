@@ -1,0 +1,595 @@
+[0.005s] Invoking command in '/home/thedush/Waypoint_Manager/build/butlerbot_gazebo': AMENT_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:/opt/ros/humble GAZEBO_MODEL_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share GZ_SIM_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share /usr/bin/cmake /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_gazebo -DCMAKE_INSTALL_PREFIX=/home/thedush/Waypoint_Manager/install/butlerbot_gazebo
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.205s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.313s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.421s] -- Configuring done
+[0.423s] -- Generating done
+[0.457s] -- Build files have been written to: /home/thedush/Waypoint_Manager/build/butlerbot_gazebo
+[0.460s] Invoked command in '/home/thedush/Waypoint_Manager/build/butlerbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:/opt/ros/humble GAZEBO_MODEL_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share GZ_SIM_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share /usr/bin/cmake /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_gazebo -DCMAKE_INSTALL_PREFIX=/home/thedush/Waypoint_Manager/install/butlerbot_gazebo
+[0.461s] Invoking command in '/home/thedush/Waypoint_Manager/build/butlerbot_gazebo': AMENT_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:/opt/ros/humble GAZEBO_MODEL_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share GZ_SIM_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share /usr/bin/cmake --build /home/thedush/Waypoint_Manager/build/butlerbot_gazebo -- -j8 -l8
+[0.487s] Invoked command in '/home/thedush/Waypoint_Manager/build/butlerbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:/opt/ros/humble GAZEBO_MODEL_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share GZ_SIM_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share /usr/bin/cmake --build /home/thedush/Waypoint_Manager/build/butlerbot_gazebo -- -j8 -l8
+[0.488s] Invoking command in '/home/thedush/Waypoint_Manager/build/butlerbot_gazebo': AMENT_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:/opt/ros/humble GAZEBO_MODEL_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share GZ_SIM_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share /usr/bin/cmake --install /home/thedush/Waypoint_Manager/build/butlerbot_gazebo
+[0.495s] -- Install configuration: ""
+[0.495s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch
+[0.525s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch/gazebo.launch.py
+[0.526s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch/simulation.launch.py
+[0.526s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/launch/spawn_robot.launch.py
+[0.526s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models
+[0.545s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair
+[0.559s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/meshes
+[0.561s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/meshes/diningchair.dae
+[0.587s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/thumbnails
+[0.617s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/thumbnails/DiningChair.png
+[0.638s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/model.sdf
+[0.644s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials
+[0.647s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures
+[0.659s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures/DiningChair_Roughness.jpg
+[0.674s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures/DiningChair_Albedo.jpg
+[0.698s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/materials/textures/DiningChair_Normal.jpg
+[0.727s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Chair/model.config
+[0.804s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3
+[0.979s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes
+[1.014s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/eyeball.dae
+[1.065s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/pupil.dae
+[1.096s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/skeleton.dae
+[1.161s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/shirt.dae
+[1.197s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/pants.dae
+[1.207s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/skin.dae
+[1.231s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/lenses.dae
+[1.262s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/hair.dae
+[1.295s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/human.dae
+[1.350s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/eye_eyebrow.dae
+[1.357s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/shoes.dae
+[1.361s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/skeleton_no_hair.dae
+[1.386s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/model.dae
+[1.449s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/meshes/eyebrows.dae
+[1.472s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/model.sdf
+[1.472s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials
+[1.473s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/scripts
+[1.473s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/scripts/skin_m_3.material
+[1.481s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/scripts/hair_m_3.material
+[1.493s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures
+[1.493s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_1.jpg
+[1.509s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_4.jpg
+[1.522s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_3.jpg
+[1.537s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_1.jpg
+[1.583s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_2.jpg
+[1.594s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_4.jpg
+[1.601s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/skin_3.jpg
+[1.618s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/materials/textures/hair_2.jpg
+[1.623s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_3/model.config
+[1.623s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3
+[1.738s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/meshes
+[1.767s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/meshes/plant.dae
+[1.798s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/model.sdf
+[1.829s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_3/model.config
+[1.829s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small
+[1.841s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/meshes
+[1.841s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/meshes/lamp_head.dae
+[1.867s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/meshes/lamp_base.dae
+[1.877s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/model.sdf
+[1.906s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/lamp_table_small/model.config
+[1.906s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4
+[1.921s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes
+[1.921s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/eyeball.dae
+[1.954s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/pupil.dae
+[1.979s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/skeleton.dae
+[2.021s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/shirt.dae
+[2.024s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/pants.dae
+[2.034s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/skin.dae
+[2.061s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/lenses.dae
+[2.067s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/hair.dae
+[2.075s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/human.dae
+[2.156s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/eye_eyebrow.dae
+[2.167s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/shoes.dae
+[2.181s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/skeleton_no_hair.dae
+[2.205s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/model.dae
+[2.444s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/meshes/eyebrows.dae
+[2.444s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/model.sdf
+[2.444s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials
+[2.444s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/scripts
+[2.444s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/scripts/skin_m_4.material
+[2.445s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/scripts/hair_m_4.material
+[2.445s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures
+[2.445s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_1.jpg
+[2.469s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_4.jpg
+[2.481s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_3.jpg
+[2.481s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_1.jpg
+[2.489s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_2.jpg
+[2.489s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_4.jpg
+[2.496s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/skin_3.jpg
+[2.513s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/materials/textures/hair_2.jpg
+[2.527s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_4/model.config
+[2.528s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor
+[2.568s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/model.sdf
+[2.571s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials
+[2.571s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/scripts
+[2.572s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/scripts/Floor.material
+[2.595s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures
+[2.595s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd1.jpg
+[2.613s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd4.jpg
+[2.613s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd3.jpg
+[2.614s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp5.png
+[2.655s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp2.jpg
+[2.699s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl4.jpg
+[2.699s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl6.jpg
+[2.699s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd5.jpg
+[2.699s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd8.jpg
+[2.738s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd6.png
+[2.749s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp4.jpg
+[2.750s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd7.jpg
+[2.775s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl5.jpg
+[2.775s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp8.jpg
+[2.784s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl3.jpg
+[2.785s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp3.jpg
+[2.786s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp1.jpg
+[2.813s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl2.jpg
+[2.813s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cl1.jpg
+[2.814s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/hd2.gif
+[2.814s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp7.jpg
+[2.815s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/materials/textures/cp6.jpg
+[2.824s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor/model.config
+[2.824s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m
+[2.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material
+[2.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/script
+[2.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/script/rug_ivory_2m.material
+[2.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/textures
+[2.825s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/material/textures/rug_ivory_469x588.png
+[2.840s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/thumbnails
+[2.840s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/thumbnails/1.png
+[2.889s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/model.sdf
+[2.890s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/rug_ivory_2m/model.config
+[2.890s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3
+[2.890s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes
+[2.890s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/female.dae
+[2.968s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyes_hair.dae
+[3.049s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/skeleton.dae
+[3.100s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyeballs.dae
+[3.104s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/shirt.dae
+[3.117s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/pants.dae
+[3.125s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/skin.dae
+[3.145s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/lenses.dae
+[3.169s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyes_makeup.dae
+[3.170s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/hair.dae
+[3.211s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/teeth.dae
+[3.224s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/head_full.dae
+[3.255s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/lips.dae
+[3.255s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/pupils.dae
+[3.255s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/shoes.dae
+[3.263s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/belt.dae
+[3.270s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/model.dae
+[3.340s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/eyebrows.dae
+[3.340s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/meshes/cloths.dae
+[3.359s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/model.sdf
+[3.383s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials
+[3.383s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/scripts
+[3.383s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/scripts/skin_3.material
+[3.392s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/scripts/hair_3.material
+[3.392s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures
+[3.392s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_1.jpg
+[3.445s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_4.jpg
+[3.492s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_3.jpg
+[3.493s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_1.jpg
+[3.556s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_2.jpg
+[3.557s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_4.jpg
+[3.560s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/skin_3.jpg
+[3.735s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/materials/textures/hair_2.jpg
+[3.747s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_3/model.config
+[3.748s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop
+[3.748s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes
+[3.748s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes/KitchenCountertop_Diffuse.png
+[3.881s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes/KitchenCountertop.mtl
+[3.927s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/meshes/KitchenCountertop.obj
+[3.936s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails
+[3.937s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/4.png
+[3.986s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/5.png
+[3.986s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/3.png
+[3.997s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/2.png
+[4.008s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/thumbnails/1.png
+[4.019s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/model.sdf
+[4.030s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenCountertop/model.config
+[4.041s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single
+[4.041s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/meshes
+[4.067s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/meshes/leaf.dae
+[4.100s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/model.sdf
+[4.100s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1_single/model.config
+[4.100s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2
+[4.124s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes
+[4.146s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/eyeball.dae
+[4.175s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/pupil.dae
+[4.181s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/skeleton.dae
+[4.306s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/shirt.dae
+[4.329s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/pants.dae
+[4.337s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/skin.dae
+[4.362s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/lenses.dae
+[4.362s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/hair.dae
+[4.370s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/human.dae
+[4.452s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/eye_eyebrow.dae
+[4.475s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/shoes.dae
+[4.486s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/skeleton_no_hair.dae
+[4.510s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/model.dae
+[4.568s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/meshes/eyebrows.dae
+[4.568s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/model.sdf
+[4.568s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials
+[4.568s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/scripts
+[4.568s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/scripts/hair_m_2.material
+[4.569s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/scripts/skin_m_2.material
+[4.569s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures
+[4.569s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_1.jpg
+[4.595s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_4.jpg
+[4.608s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_3.jpg
+[4.631s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_1.jpg
+[4.639s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_2.jpg
+[4.639s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_4.jpg
+[4.644s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/skin_3.jpg
+[4.663s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/materials/textures/hair_2.jpg
+[4.675s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_2/model.config
+[4.675s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1
+[4.675s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes
+[4.676s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/eyeball.dae
+[4.680s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/pupil.dae
+[4.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/skeleton.dae
+[4.726s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/shirt.dae
+[4.729s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/pants.dae
+[4.738s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/skin.dae
+[4.759s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/lenses.dae
+[4.760s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/hair.dae
+[4.787s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/human.dae
+[4.855s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/eye_eyebrow.dae
+[4.869s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/shoes.dae
+[4.881s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/skeleton_no_hair.dae
+[4.910s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/model.dae
+[4.969s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/meshes/eyebrows.dae
+[4.991s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/model.sdf
+[5.011s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials
+[5.011s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/scripts
+[5.011s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/scripts/skin_m_1.material
+[5.012s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/scripts/hair_m_1_1.material
+[5.012s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures
+[5.012s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_1.jpg
+[5.053s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_4.jpg
+[5.067s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_3.jpg
+[5.087s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_1.jpg
+[5.094s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_2.jpg
+[5.098s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_4.jpg
+[5.109s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/skin_3.jpg
+[5.129s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/materials/textures/hair_2.jpg
+[5.134s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1/model.config
+[5.134s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table
+[5.139s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/meshes
+[5.145s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/meshes/diningtable.dae
+[5.161s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/thumbnails
+[5.161s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/thumbnails/DiningTable.png
+[5.183s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/model.sdf
+[5.194s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials
+[5.206s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures
+[5.246s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures/Wood_Roughness.png
+[5.305s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures/Wood_Normal.png
+[5.342s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/materials/textures/Wood_Albedo.png
+[5.473s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Dining Table/model.config
+[5.516s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1
+[5.517s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes
+[5.517s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/female.dae
+[5.567s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyes_hair.dae
+[5.605s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/skeleton.dae
+[5.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyeballs.dae
+[5.684s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/shirt.dae
+[5.694s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/pants.dae
+[5.702s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/skin.dae
+[5.715s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/lenses.dae
+[5.721s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyes_makeup.dae
+[5.740s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/hair.dae
+[5.782s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/teeth.dae
+[5.804s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/head_full.dae
+[5.832s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/lips.dae
+[5.844s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/pupils.dae
+[5.858s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/shoes.dae
+[5.867s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/belt.dae
+[5.880s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/model.dae
+[5.920s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/eyebrows.dae
+[5.920s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/meshes/cloths.dae
+[5.934s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/model.sdf
+[5.939s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials
+[5.939s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/scripts
+[5.939s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/scripts/skin_1.material
+[5.947s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/scripts/hair_1_1.material
+[6.025s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures
+[6.139s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_1.jpg
+[7.573s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_4.jpg
+[7.700s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_3.jpg
+[7.753s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_1.jpg
+[8.082s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_2.jpg
+[8.152s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_4.jpg
+[8.254s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/skin_3.jpg
+[8.308s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/materials/textures/hair_2.jpg
+[8.365s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1_1/model.config
+[8.384s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge
+[8.468s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes
+[8.483s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge_Diffuse.png
+[8.789s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge.mtl
+[8.971s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge_Col.mtl
+[8.971s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge.obj
+[9.082s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/meshes/Fridge_Col.obj
+[9.082s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails
+[9.101s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/4.png
+[9.102s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/5.png
+[9.127s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/3.png
+[9.128s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/2.png
+[9.128s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/thumbnails/1.png
+[9.129s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/model.sdf
+[9.129s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Fridge/model.config
+[9.129s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1
+[9.166s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/meshes
+[9.167s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/meshes/leaf.dae
+[9.252s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/model.sdf
+[9.295s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_1/model.config
+[9.295s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1
+[9.296s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes
+[9.296s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/female.dae
+[9.711s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyes_hair.dae
+[9.786s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/skeleton.dae
+[9.902s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyeballs.dae
+[9.970s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/shirt.dae
+[10.130s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/pants.dae
+[10.238s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/skin.dae
+[10.359s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/lenses.dae
+[10.451s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyes_makeup.dae
+[10.600s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/hair.dae
+[10.646s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/teeth.dae
+[10.726s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/head_full.dae
+[10.795s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/lips.dae
+[10.843s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/pupils.dae
+[10.870s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/shoes.dae
+[10.909s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/belt.dae
+[10.999s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/model.dae
+[11.149s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/eyebrows.dae
+[11.255s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/meshes/cloths.dae
+[11.342s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/model.sdf
+[11.392s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials
+[11.414s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/scripts
+[11.414s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/scripts/skin_1.material
+[11.424s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/scripts/hair_1.material
+[11.425s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures
+[11.425s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_1.jpg
+[11.540s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_4.jpg
+[11.575s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_3.jpg
+[11.632s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_1.jpg
+[11.639s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_2.jpg
+[11.639s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_4.jpg
+[11.645s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/skin_3.jpg
+[11.662s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/materials/textures/hair_2.jpg
+[11.677s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_1/model.config
+[11.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1
+[11.703s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes
+[11.713s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/eyeball.dae
+[11.743s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/pupil.dae
+[11.744s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/skeleton.dae
+[11.797s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/shirt.dae
+[11.801s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/pants.dae
+[11.810s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/skin.dae
+[11.837s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/lenses.dae
+[11.865s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/hair.dae
+[11.895s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/human.dae
+[12.078s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/eye_eyebrow.dae
+[12.089s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/shoes.dae
+[12.103s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/skeleton_no_hair.dae
+[12.133s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/model.dae
+[12.235s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/meshes/eyebrows.dae
+[12.268s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/model.sdf
+[12.287s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials
+[12.287s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/scripts
+[12.288s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/scripts/skin_m_1.material
+[12.306s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/scripts/hair_m_1.material
+[12.306s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures
+[12.306s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_1.jpg
+[12.352s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_4.jpg
+[12.365s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_3.jpg
+[12.366s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_1.jpg
+[12.374s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_2.jpg
+[12.385s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_4.jpg
+[12.388s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/skin_3.jpg
+[12.408s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/materials/textures/hair_2.jpg
+[12.413s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_male_1_1/model.config
+[12.413s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble
+[12.413s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/model-1_4.sdf
+[12.421s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/meshes
+[12.430s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/meshes/table_lightmap.dae
+[12.442s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails
+[12.452s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/4.png
+[12.452s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/5.png
+[12.453s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/3.png
+[12.453s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/2.png
+[12.458s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/thumbnails/1.png
+[12.459s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/model.sdf
+[12.459s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials
+[12.459s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/scripts
+[12.459s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/scripts/table_lightmap.material
+[12.465s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/textures
+[12.465s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/textures/marble.png
+[12.478s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/materials/textures/table_lightmap.png
+[12.491s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Table Marble/model.config
+[12.491s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2
+[12.524s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/meshes
+[12.524s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/meshes/leaf2.dae
+[12.525s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/model.sdf
+[12.525s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2/model.config
+[12.525s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2
+[12.535s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes
+[12.536s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/female.dae
+[12.608s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyes_hair.dae
+[12.650s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/skeleton.dae
+[12.720s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyeballs.dae
+[12.726s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/shirt.dae
+[12.735s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/pants.dae
+[12.742s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/skin.dae
+[12.765s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/lenses.dae
+[12.773s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyes_makeup.dae
+[12.792s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/hair.dae
+[12.810s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/teeth.dae
+[12.816s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/head_full.dae
+[12.839s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/lips.dae
+[12.841s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/pupils.dae
+[12.865s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/shoes.dae
+[12.870s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/belt.dae
+[12.895s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/model.dae
+[12.949s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/eyebrows.dae
+[12.958s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/meshes/cloths.dae
+[12.975s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/model.sdf
+[12.976s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials
+[12.976s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/scripts
+[13.001s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/scripts/hair_2.material
+[13.029s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/scripts/skin_2.material
+[13.029s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures
+[13.029s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_1.jpg
+[13.053s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_4.jpg
+[13.065s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_3.jpg
+[13.065s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_1.jpg
+[13.073s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_2.jpg
+[13.084s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_4.jpg
+[13.100s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/skin_3.jpg
+[13.119s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/materials/textures/hair_2.jpg
+[13.134s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_2/model.config
+[13.134s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single
+[13.134s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/meshes
+[13.134s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/meshes/leaf2.dae
+[13.135s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/model.sdf
+[13.135s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant_2_single/model.config
+[13.135s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/plant.dae
+[13.153s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower
+[13.153s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes
+[13.153s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes/pot_base.dae
+[13.172s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes/pot_soil.dae
+[13.181s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/meshes/full.dae
+[13.197s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/model.sdf
+[13.198s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/pot_flower/model.config
+[13.198s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink
+[13.213s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/meshes
+[13.225s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/meshes/kitchenSink.obj
+[13.232s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/meshes/kitchenSink.mtl
+[13.243s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails
+[13.243s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/4.png
+[13.243s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/5.png
+[13.244s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/3.png
+[13.244s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/2.png
+[13.244s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/thumbnails/1.png
+[13.244s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/model.sdf
+[13.245s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/KitchenSink/model.config
+[13.245s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker
+[13.248s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/meshes
+[13.259s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/meshes/coffee_maker.mtl
+[13.266s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/meshes/coffee_maker.obj
+[13.266s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails
+[13.270s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/4.png
+[13.271s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/5.png
+[13.271s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/3.png
+[13.271s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/2.png
+[13.272s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/thumbnails/1.png
+[13.272s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/model.sdf
+[13.272s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/materials
+[13.281s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/materials/textures
+[13.293s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/materials/textures/coffee_maker.png
+[13.320s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Coffee Maker/model.config
+[13.320s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room
+[13.346s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/model.sdf
+[13.360s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials
+[13.360s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/scripts
+[13.361s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/scripts/Floor_room.material
+[13.372s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/scripts/Floor.material
+[13.383s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures
+[13.383s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_3.jpg
+[13.412s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd1.jpg
+[13.438s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd4.jpg
+[13.439s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd3.jpg
+[13.439s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp5.png
+[13.486s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp2.jpg
+[13.520s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl4.jpg
+[13.535s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl6.jpg
+[13.535s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd5.jpg
+[13.535s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd8.jpg
+[13.536s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_1.jpg
+[13.561s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd6.png
+[13.575s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp4.jpg
+[13.579s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd7.jpg
+[13.603s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl5.jpg
+[13.612s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_4.jpg
+[13.831s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp8.jpg
+[13.890s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl3.jpg
+[13.890s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp3.jpg
+[13.933s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp1.jpg
+[13.946s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl2.jpg
+[13.946s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cl1.jpg
+[13.948s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/hd2.gif
+[13.948s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/carpet_2.jpg
+[13.949s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp7.jpg
+[14.009s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/materials/textures/cp6.jpg
+[14.049s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/Floor_room/model.config
+[14.049s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4
+[14.083s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes
+[14.083s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/female.dae
+[14.164s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyes_hair.dae
+[14.189s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/skeleton.dae
+[14.225s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyeballs.dae
+[14.234s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/shirt.dae
+[14.241s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/pants.dae
+[14.251s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/skin.dae
+[14.274s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/lenses.dae
+[14.279s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyes_makeup.dae
+[14.290s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/hair.dae
+[14.311s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/teeth.dae
+[14.320s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/head_full.dae
+[14.345s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/lips.dae
+[14.424s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/pupils.dae
+[14.424s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/shoes.dae
+[14.432s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/belt.dae
+[14.444s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/model.dae
+[14.487s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/eyebrows.dae
+[14.489s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/meshes/cloths.dae
+[14.511s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/model.sdf
+[14.512s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials
+[14.512s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/scripts
+[14.537s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/scripts/hair_4.material
+[14.537s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/scripts/skin_4.material
+[14.538s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures
+[14.538s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_1.jpg
+[14.578s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_4.jpg
+[14.595s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_3.jpg
+[14.596s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_1.jpg
+[14.626s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_2.jpg
+[14.626s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_4.jpg
+[14.630s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/skin_3.jpg
+[14.649s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/materials/textures/hair_2.jpg
+[14.659s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/models/human_female_4/model.config
+[14.659s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/rviz
+[14.660s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/rviz/display.rviz
+[14.660s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds
+[14.660s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/french_door_cafe.world
+[14.669s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/empty.world
+[14.669s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/cafe.world
+[14.679s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/worlds/coffeshop.world
+[14.679s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/ament_index/resource_index/package_run_dependencies/butlerbot_gazebo
+[14.680s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/ament_index/resource_index/parent_prefix_path/butlerbot_gazebo
+[14.680s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/ament_prefix_path.sh
+[14.680s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/ament_prefix_path.dsv
+[14.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/path.sh
+[14.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/environment/path.dsv
+[14.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.bash
+[14.681s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.sh
+[14.682s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.zsh
+[14.682s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/local_setup.dsv
+[14.682s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/package.dsv
+[14.683s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/ament_index/resource_index/packages/butlerbot_gazebo
+[14.683s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/cmake/butlerbot_gazeboConfig.cmake
+[14.683s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/cmake/butlerbot_gazeboConfig-version.cmake
+[14.683s] -- Installing: /home/thedush/Waypoint_Manager/install/butlerbot_gazebo/share/butlerbot_gazebo/package.xml
+[14.687s] Invoked command in '/home/thedush/Waypoint_Manager/build/butlerbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description:/opt/ros/humble GAZEBO_MODEL_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share GZ_SIM_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share IGN_GAZEBO_RESOURCE_PATH=/home/thedush/Waypoint_Manager/install/butlerbot_description/share /usr/bin/cmake --install /home/thedush/Waypoint_Manager/build/butlerbot_gazebo

@@ -1,0 +1,4 @@
+[0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/cafe.world /home/thedush/Waypoint_Manager/build/butlerbot_rmf_gazebo/maps/cafe/models[0m
+[0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/thedush/Waypoint_Manager/ROS-Assignment/src/butlerbot_rmf_gazebo/maps/cafe.building.yaml[0m
+/opt/ros/humble/lib/python3.10/site-packages/building_map/floor.py:144: ShapelyDeprecationWarning: Iteration over multi-part geometries is deprecated and will be removed in Shapely 2.0. Use the `geoms` property to access the constituent parts of a multi-part geometry.
+  for item in geom:

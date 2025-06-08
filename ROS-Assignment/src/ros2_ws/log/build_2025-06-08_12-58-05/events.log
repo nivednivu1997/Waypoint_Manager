@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (cpp_node) JobQueued: {'identifier': 'cpp_node', 'dependencies': OrderedDict()}
+[0.000764] (cpp_node) JobStarted: {'identifier': 'cpp_node'}
+[0.010938] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'cmake'}
+[0.011993] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'build'}
+[0.012886] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thedush/Videos/ros2_ws/build/cpp_node', '--', '-j8', '-l8'], 'cwd': '/home/thedush/Videos/ros2_ws/build/cpp_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'thedush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thedush'), ('OLDPWD', '/home/thedush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thedush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thedush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thedush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thedush-HP-Laptop-15s-du3xxx:@/tmp/.ICE-unix/2617,unix/thedush-HP-Laptop-15s-du3xxx:/tmp/.ICE-unix/2617'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/thedush/fastrtps-profile.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eac17a34_e1fd_4742_a5a1_a22863dc6a30'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install/cpp_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thedush/Videos/ros2_ws/build/cpp_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install/cpp_node:/opt/ros/humble')]), 'shell': False}
+[0.076067] (cpp_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target waypoint_node\x1b[0m\n'}
+[0.098884] (cpp_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o\x1b[0m\n'}
+[0.099749] (-) TimerEvent: {}
+[0.200067] (-) TimerEvent: {}
+[0.300425] (-) TimerEvent: {}
+[0.400706] (-) TimerEvent: {}
+[0.500990] (-) TimerEvent: {}
+[0.601325] (-) TimerEvent: {}
+[0.701654] (-) TimerEvent: {}
+[0.801952] (-) TimerEvent: {}
+[0.902278] (-) TimerEvent: {}
+[1.002695] (-) TimerEvent: {}
+[1.103104] (-) TimerEvent: {}
+[1.203425] (-) TimerEvent: {}
+[1.303749] (-) TimerEvent: {}
+[1.404194] (-) TimerEvent: {}
+[1.504490] (-) TimerEvent: {}
+[1.604853] (-) TimerEvent: {}
+[1.705250] (-) TimerEvent: {}
+[1.805689] (-) TimerEvent: {}
+[1.905986] (-) TimerEvent: {}
+[2.006269] (-) TimerEvent: {}
+[2.106571] (-) TimerEvent: {}
+[2.206847] (-) TimerEvent: {}
+[2.307204] (-) TimerEvent: {}
+[2.407629] (-) TimerEvent: {}
+[2.507960] (-) TimerEvent: {}
+[2.608308] (-) TimerEvent: {}
+[2.708738] (-) TimerEvent: {}
+[2.809049] (-) TimerEvent: {}
+[2.909413] (-) TimerEvent: {}
+[3.009818] (-) TimerEvent: {}
+[3.110381] (-) TimerEvent: {}
+[3.210756] (-) TimerEvent: {}
+[3.311046] (-) TimerEvent: {}
+[3.411336] (-) TimerEvent: {}
+[3.511713] (-) TimerEvent: {}
+[3.612075] (-) TimerEvent: {}
+[3.712369] (-) TimerEvent: {}
+[3.721103] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WaypointManager::createWaypoint(bool, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.721335] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:60:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyaw\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.721403] (cpp_node) StderrLine: {'line': b'   60 |                \x1b[01;31m\x1b[Kyaw\x1b[m\x1b[K,\n'}
+[3.721468] (cpp_node) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.721603] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:51:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.721667] (cpp_node) StderrLine: {'line': b'   51 |   double \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = current_pose_.position.x;\n'}
+[3.721719] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.721773] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:52:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.721844] (cpp_node) StderrLine: {'line': b'   52 |   double \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = current_pose_.position.y;\n'}
+[3.721899] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.721948] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:53:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.722007] (cpp_node) StderrLine: {'line': b'   53 |   double \x1b[01;35m\x1b[Ktheta\x1b[m\x1b[K = get_yaw(current_pose_.orientation);\n'}
+[3.722058] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.725207] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.725418] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.725478] (cpp_node) StderrLine: {'line': b'  105 | double WaypointManager::calculateYawDifference(const \x1b[01;31m\x1b[KPose\x1b[m\x1b[K& p1, const Pose& p2) {\n'}
+[3.725530] (cpp_node) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.726683] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.726765] (cpp_node) StderrLine: {'line': b'  105 | double WaypointManager::calculateYawDifference(const Pose& p1, const \x1b[01;31m\x1b[KPose\x1b[m\x1b[K& p2) {\n'}
+[3.726848] (cpp_node) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.726917] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble WaypointManager::calculateYawDifference(const int&, const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.726986] (cpp_node) StderrLine: {'line': b'  105 | double \x1b[01;31m\x1b[KWaypointManager\x1b[m\x1b[K::calculateYawDifference(const Pose& p1, const Pose& p2) {\n'}
+[3.727053] (cpp_node) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.727182] (cpp_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:1\x1b[m\x1b[K:\n'}
+[3.727240] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:46:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kdouble WaypointManager::calculateYawDifference(const Pose&, const Pose&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727292] (cpp_node) StderrLine: {'line': b'   46 |   double \x1b[01;36m\x1b[KcalculateYawDifference\x1b[m\x1b[K(const geometry_msgs::msg::Pose& pose1, const geometry_msgs::msg::Pose& pose2);\n'}
+[3.727341] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.727389] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:21:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass WaypointManager\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.727440] (cpp_node) StderrLine: {'line': b'   21 | class \x1b[01;36m\x1b[KWaypointManager\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[3.727502] (cpp_node) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.812466] (-) TimerEvent: {}
+[3.912772] (-) TimerEvent: {}
+[4.013150] (-) TimerEvent: {}
+[4.113641] (-) TimerEvent: {}
+[4.213971] (-) TimerEvent: {}
+[4.314255] (-) TimerEvent: {}
+[4.414569] (-) TimerEvent: {}
+[4.514865] (-) TimerEvent: {}
+[4.615162] (-) TimerEvent: {}
+[4.715456] (-) TimerEvent: {}
+[4.815804] (-) TimerEvent: {}
+[4.916083] (-) TimerEvent: {}
+[5.016359] (-) TimerEvent: {}
+[5.116691] (-) TimerEvent: {}
+[5.216980] (-) TimerEvent: {}
+[5.317284] (-) TimerEvent: {}
+[5.417587] (-) TimerEvent: {}
+[5.517859] (-) TimerEvent: {}
+[5.618150] (-) TimerEvent: {}
+[5.718442] (-) TimerEvent: {}
+[5.818740] (-) TimerEvent: {}
+[5.919025] (-) TimerEvent: {}
+[6.019337] (-) TimerEvent: {}
+[6.119682] (-) TimerEvent: {}
+[6.220037] (-) TimerEvent: {}
+[6.320359] (-) TimerEvent: {}
+[6.420632] (-) TimerEvent: {}
+[6.520962] (-) TimerEvent: {}
+[6.621268] (-) TimerEvent: {}
+[6.721540] (-) TimerEvent: {}
+[6.821904] (-) TimerEvent: {}
+[6.922274] (-) TimerEvent: {}
+[7.022352] (cpp_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1\n'}
+[7.022625] (-) TimerEvent: {}
+[7.022766] (cpp_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2\n'}
+[7.022898] (cpp_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.024829] (cpp_node) CommandEnded: {'returncode': 2}
+[7.037252] (cpp_node) JobEnded: {'identifier': 'cpp_node', 'rc': 2}
+[7.048028] (-) EventReactorShutdown: {}

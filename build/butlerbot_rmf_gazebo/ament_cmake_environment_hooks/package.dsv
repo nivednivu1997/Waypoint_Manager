@@ -1,0 +1,4 @@
+source;share/butlerbot_rmf_gazebo/local_setup.bash
+source;share/butlerbot_rmf_gazebo/local_setup.dsv
+source;share/butlerbot_rmf_gazebo/local_setup.sh
+source;share/butlerbot_rmf_gazebo/local_setup.zsh

@@ -1,0 +1,14 @@
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::createManualWaypoint(bool, const string&)[m[K’:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:50:21:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   50 |   double yaw = tf2::[01;31m[KgetYaw[m[K(last_pose_.orientation);
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::createWaypoint(bool, const string&)[m[K’:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:67:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   67 |   double [01;35m[Kx[m[K = current_pose_.position.x;
+      |          [01;35m[K^[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:68:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   68 |   double [01;35m[Ky[m[K = current_pose_.position.y;
+      |          [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

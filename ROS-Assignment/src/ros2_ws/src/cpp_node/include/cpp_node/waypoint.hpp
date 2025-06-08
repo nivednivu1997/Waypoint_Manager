@@ -31,12 +31,15 @@ private:
 
   std::vector<Waypoint> waypoints_;
   geometry_msgs::msg::Pose last_pose_;
+  geometry_msgs::msg::Pose current_pose_;
+
   bool has_pose_ = false;
 
   double distanceThreshold_ = 2.0;
   double angleThreshold_ = M_PI / 4.0;
 
   void createWaypoint(bool is_manual, const std::string& id = "");
+  void createManualWaypoint(bool is_manual, const std::string& id);
   void saveWaypointsToYAML();
   void publishMarkers();
   bool isNearExistingWaypoint(double x, double y, double threshold = 0.5);

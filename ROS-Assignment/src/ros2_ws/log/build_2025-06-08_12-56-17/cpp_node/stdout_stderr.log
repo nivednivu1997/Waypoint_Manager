@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target waypoint_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o[0m
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::createWaypoint(bool, const string&)[m[K’:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:51:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_[m[K’ was not declared in this scope
+   51 |   double x = [01;31m[Kcurrent_pose_[m[K.position.x;
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:60:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+   60 |                [01;31m[Kyaw[m[K,
+      |                [01;31m[K^~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:51:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |   double [01;35m[Kx[m[K = current_pose_.position.x;
+      |          [01;35m[K^[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:52:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   52 |   double [01;35m[Ky[m[K = current_pose_.position.y;
+      |          [01;35m[K^[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:53:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   53 |   double [01;35m[Ktheta[m[K = get_yaw(current_pose_.orientation);
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K In member function ‘[01m[Kvoid WaypointManager::timerCallback()[m[K’:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:73:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_pose_[m[K’ was not declared in this scope
+   73 |   double yaw_diff = calculateYawDifference([01;31m[Kcurrent_pose_[m[K, last_pose_);
+      |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:[m[K At global scope:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:54:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ does not name a type
+  105 | double WaypointManager::calculateYawDifference(const [01;31m[KPose[m[K& p1, const Pose& p2) {
+      |                                                      [01;31m[K^~~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:70:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ does not name a type
+  105 | Manager::calculateYawDifference(const Pose& p1, const [01;31m[KPose[m[K& p2) {
+      |                                                       [01;31m[K^~~~[m[K
+
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:105:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble WaypointManager::calculateYawDifference(const int&, const int&)[m[K’
+  105 | double [01;31m[KWaypointManager[m[K::calculateYawDifference(const Pose& p1, const Pose& p2) {
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:1[m[K:
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:44:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble WaypointManager::calculateYawDifference(const Pose&, const Pose&)[m[K’
+   44 |   double [01;36m[KcalculateYawDifference[m[K(const geometry_msgs::msg::Pose& pose1, const geometry_msgs::msg::Pose& pose2);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thedush/Videos/ros2_ws/src/cpp_node/include/cpp_node/waypoint.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass WaypointManager[m[K’ defined here
+   21 | class [01;36m[KWaypointManager[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/waypoint_node.dir/build.make:76: CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/waypoint_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

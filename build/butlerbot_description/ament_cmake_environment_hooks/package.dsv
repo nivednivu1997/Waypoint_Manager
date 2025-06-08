@@ -1,0 +1,4 @@
+source;share/butlerbot_description/local_setup.bash
+source;share/butlerbot_description/local_setup.dsv
+source;share/butlerbot_description/local_setup.sh
+source;share/butlerbot_description/local_setup.zsh

@@ -1,0 +1,121 @@
+[3.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.213s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e2f9eb6a8f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e2f9eb6a440>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e2f9eb6a440>>, mixin_verb=('build',))
+[11.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.424s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thedush/Videos/ros2_ws'
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.522s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extensions ['ignore', 'ignore_ament_install']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extension 'ignore'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extension 'ignore_ament_install'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extensions ['colcon_pkg']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extension 'colcon_pkg'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extensions ['colcon_meta']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extension 'colcon_meta'
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extensions ['ros']
+[11.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_node) by extension 'ros'
+[11.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_node' with type 'ros.ament_cmake' and name 'cpp_node'
+[11.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[11.921s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/thedush/Videos/ros2_ws/install
+[12.042s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[12.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'cmake_args' from command line to 'None'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'cmake_target' from command line to 'None'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'cmake_clean_cache' from command line to 'False'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'cmake_clean_first' from command line to 'False'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'cmake_force_configure' from command line to 'False'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'ament_cmake_args' from command line to 'None'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'catkin_cmake_args' from command line to 'None'
+[15.426s] Level 5:colcon.colcon_core.verb:set package 'cpp_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[15.426s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thedush/Videos/ros2_ws/build/cpp_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thedush/Videos/ros2_ws/install/cpp_node', 'merge_install': False, 'path': '/home/thedush/Videos/ros2_ws/src/cpp_node', 'symlink_install': False, 'test_result_base': None}
+[15.426s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[15.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[15.428s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thedush/Videos/ros2_ws/src/cpp_node' with build type 'ament_cmake'
+[15.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thedush/Videos/ros2_ws/src/cpp_node'
+[15.515s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[15.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thedush/Videos/ros2_ws/build/cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[25.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thedush/Videos/ros2_ws/build/cpp_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thedush/Videos/ros2_ws/build/cpp_node -- -j8 -l8
+[25.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_node)
+[26.085s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node' for CMake module files
+[26.100s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node' for CMake config files
+[26.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_node', 'cmake_prefix_path')
+[26.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.ps1'
+[26.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.dsv'
+[26.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/hook/cmake_prefix_path.sh'
+[26.134s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node/lib'
+[26.134s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node/bin'
+[26.134s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node/lib/pkgconfig/cpp_node.pc'
+[26.135s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node/lib/python3.10/site-packages'
+[26.135s] Level 1:colcon.colcon_core.environment:checking '/home/thedush/Videos/ros2_ws/install/cpp_node/bin'
+[26.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.ps1'
+[26.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.dsv'
+[26.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.sh'
+[26.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.bash'
+[26.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.zsh'
+[26.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thedush/Videos/ros2_ws/install/cpp_node/share/colcon-core/packages/cpp_node)
+[26.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[26.162s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.360s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.372s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.373s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thedush/Videos/ros2_ws/install/local_setup.ps1'
+[26.374s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thedush/Videos/ros2_ws/install/_local_setup_util_ps1.py'
+[26.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thedush/Videos/ros2_ws/install/setup.ps1'
+[26.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thedush/Videos/ros2_ws/install/local_setup.sh'
+[26.377s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thedush/Videos/ros2_ws/install/_local_setup_util_sh.py'
+[26.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thedush/Videos/ros2_ws/install/setup.sh'
+[26.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thedush/Videos/ros2_ws/install/local_setup.bash'
+[26.380s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thedush/Videos/ros2_ws/install/setup.bash'
+[26.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thedush/Videos/ros2_ws/install/local_setup.zsh'
+[26.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thedush/Videos/ros2_ws/install/setup.zsh'

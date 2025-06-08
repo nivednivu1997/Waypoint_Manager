@@ -26,7 +26,7 @@ WaypointManager::WaypointManager() : Node("waypoint_manager") {
 }
 
 void WaypointManager::amclCallback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg) {
-  last_pose_ = msg->pose.pose;
+  current_pose_ = msg->pose.pose;
   has_pose_ = true;
 }
 
@@ -41,22 +41,46 @@ void WaypointManager::handleManualWaypoint(
   }
 
   std::string id = "manual_" + std::to_string(waypoints_.size());
-  createWaypoint(true, id);
+  createManualWaypoint(true, id);
   response->success = true;
   response->message = "Manual waypoint created.";
 }
 
+void WaypointManager::createManualWaypoint(bool is_manual, const std::string& id) {
+double yaw = get_yaw(current_pose_.orientation);
+
+  if (isNearExistingWaypoint(current_pose_.position.x, current_pose_.position.y)) return;
+
+  Waypoint wp{ id.empty() ? ("manual_" + std::to_string(waypoints_.size())) : id,
+               current_pose_.position.x,
+               current_pose_.position.y,
+               yaw,
+               is_manual };
+  waypoints_.push_back(wp);
+
+  // Update last_pose_ so that auto waypoints consider this manual waypoint as last
+  last_pose_ = current_pose_;
+
+  saveWaypointsToYAML();
+  publishMarkers();
+}
+
+
 void WaypointManager::createWaypoint(bool is_manual, const std::string& id) {
-  double yaw = get_yaw(last_pose_.orientation);
+  //double yaw = get_yaw(last_pose_.orientation);
+  double x = current_pose_.position.x;
+  double y = current_pose_.position.y;
+  double theta = get_yaw(current_pose_.orientation);
 
   if (isNearExistingWaypoint(last_pose_.position.x, last_pose_.position.y)) return;
 
   Waypoint wp{ id.empty() ? ("auto_" + std::to_string(waypoints_.size())) : id,
                last_pose_.position.x,
                last_pose_.position.y,
-               yaw,
+               theta,
                is_manual };
   waypoints_.push_back(wp);
+  last_pose_ = current_pose_;
 
   saveWaypointsToYAML();
   publishMarkers();
@@ -65,26 +89,23 @@ void WaypointManager::createWaypoint(bool is_manual, const std::string& id) {
 void WaypointManager::timerCallback() {
   if (!has_pose_) return;
 
-  if (waypoints_.empty()) {
-    createWaypoint(false);
+  // Calculate angular difference between last_pose_ and current_pose_
+  double yaw_diff = calculateYawDifference(current_pose_, last_pose_);
+
+  if (yaw_diff > angleThreshold_) {
+    createWaypoint(false);  // auto waypoint
+    last_pose_ = current_pose_;  // update last_pose_ only after creating waypoint
     return;
   }
 
-  const geometry_msgs::msg::Pose& prev = last_pose_;
-  const Waypoint& last_wp = waypoints_.back();
-
-  geometry_msgs::msg::Pose last_wp_pose;
-  last_wp_pose.position.x = last_wp.x;
-  last_wp_pose.position.y = last_wp.y;
-  tf2::Quaternion q;
-  q.setRPY(0, 0, last_wp.theta);
-  last_wp_pose.orientation = tf2::toMsg(q);
-
-  if (calculateDistance(prev, last_wp_pose) > distanceThreshold_ ||
-      calculateYawDifference(prev, last_wp_pose) > angleThreshold_) {
+  // Also check distance (optional if required)
+  double dist = calculateDistance(current_pose_, last_pose_);
+  if (dist > distanceThreshold_) {
     createWaypoint(false);
+    last_pose_ = current_pose_;
   }
 }
+
 
 bool WaypointManager::isNearExistingWaypoint(double x, double y, double threshold) {
   for (const auto& wp : waypoints_) {
@@ -100,12 +121,19 @@ double WaypointManager::calculateDistance(const geometry_msgs::msg::Pose& p1,
   return std::hypot(p1.position.x - p2.position.x, p1.position.y - p2.position.y);
 }
 
-double WaypointManager::calculateYawDifference(const geometry_msgs::msg::Pose& p1,
-                                               const geometry_msgs::msg::Pose& p2) {
+
+double WaypointManager::calculateYawDifference(
+    const geometry_msgs::msg::Pose& p1,
+    const geometry_msgs::msg::Pose& p2) {
   double yaw1 = get_yaw(p1.orientation);
   double yaw2 = get_yaw(p2.orientation);
-  return std::fabs(yaw1 - yaw2);
+
+  double diff = std::fabs(yaw1 - yaw2);
+  if (diff > M_PI)
+    diff = 2 * M_PI - diff;
+  return diff;
 }
+
 
 void WaypointManager::saveWaypointsToYAML() {
   YAML::Emitter out;

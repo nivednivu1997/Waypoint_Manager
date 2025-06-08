@@ -1,0 +1,6 @@
+Invoking command in '/home/thedush/Waypoint_Manager/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Waypoint_Manager/ROS-Assignment/src/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Waypoint_Manager/install/cpp_node
+Invoked command in '/home/thedush/Waypoint_Manager/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thedush/Waypoint_Manager/ROS-Assignment/src/ros2_ws/src/cpp_node -DCMAKE_INSTALL_PREFIX=/home/thedush/Waypoint_Manager/install/cpp_node
+Invoking command in '/home/thedush/Waypoint_Manager/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Waypoint_Manager/build/cpp_node -- -j8 -l8
+Invoked command in '/home/thedush/Waypoint_Manager/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thedush/Waypoint_Manager/build/cpp_node -- -j8 -l8
+Invoking command in '/home/thedush/Waypoint_Manager/build/cpp_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thedush/Waypoint_Manager/build/cpp_node
+Invoked command in '/home/thedush/Waypoint_Manager/build/cpp_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thedush/Waypoint_Manager/build/cpp_node

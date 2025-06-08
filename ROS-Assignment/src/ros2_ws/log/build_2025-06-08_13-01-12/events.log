@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000600] (cpp_node) JobQueued: {'identifier': 'cpp_node', 'dependencies': OrderedDict()}
+[0.000636] (cpp_node) JobStarted: {'identifier': 'cpp_node'}
+[0.007655] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'cmake'}
+[0.009479] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'build'}
+[0.009660] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thedush/Videos/ros2_ws/build/cpp_node', '--', '-j8', '-l8'], 'cwd': '/home/thedush/Videos/ros2_ws/build/cpp_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'thedush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thedush'), ('OLDPWD', '/home/thedush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thedush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thedush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thedush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thedush-HP-Laptop-15s-du3xxx:@/tmp/.ICE-unix/2617,unix/thedush-HP-Laptop-15s-du3xxx:/tmp/.ICE-unix/2617'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/thedush/fastrtps-profile.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eac17a34_e1fd_4742_a5a1_a22863dc6a30'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install/cpp_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thedush/Videos/ros2_ws/build/cpp_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install/cpp_node:/opt/ros/humble')]), 'shell': False}
+[0.061916] (cpp_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target waypoint_node\x1b[0m\n'}
+[0.081103] (cpp_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/waypoint_node.dir/src/waypoint.cpp.o\x1b[0m\n'}
+[0.099777] (-) TimerEvent: {}
+[0.200069] (-) TimerEvent: {}
+[0.300430] (-) TimerEvent: {}
+[0.400714] (-) TimerEvent: {}
+[0.501368] (-) TimerEvent: {}
+[0.601762] (-) TimerEvent: {}
+[0.702041] (-) TimerEvent: {}
+[0.802319] (-) TimerEvent: {}
+[0.902621] (-) TimerEvent: {}
+[1.003014] (-) TimerEvent: {}
+[1.103338] (-) TimerEvent: {}
+[1.203617] (-) TimerEvent: {}
+[1.303914] (-) TimerEvent: {}
+[1.404256] (-) TimerEvent: {}
+[1.504554] (-) TimerEvent: {}
+[1.604835] (-) TimerEvent: {}
+[1.705147] (-) TimerEvent: {}
+[1.805461] (-) TimerEvent: {}
+[1.905727] (-) TimerEvent: {}
+[2.006035] (-) TimerEvent: {}
+[2.106418] (-) TimerEvent: {}
+[2.206707] (-) TimerEvent: {}
+[2.307033] (-) TimerEvent: {}
+[2.407314] (-) TimerEvent: {}
+[2.507678] (-) TimerEvent: {}
+[2.607989] (-) TimerEvent: {}
+[2.708350] (-) TimerEvent: {}
+[2.808734] (-) TimerEvent: {}
+[2.909069] (-) TimerEvent: {}
+[3.009437] (-) TimerEvent: {}
+[3.109724] (-) TimerEvent: {}
+[3.210069] (-) TimerEvent: {}
+[3.310502] (-) TimerEvent: {}
+[3.313568] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WaypointManager::createWaypoint(bool, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.313755] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:51:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.313817] (cpp_node) StderrLine: {'line': b'   51 |   double \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = current_pose_.position.x;\n'}
+[3.313870] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.313920] (cpp_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/thedush/Videos/ros2_ws/src/cpp_node/src/waypoint.cpp:52:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.313982] (cpp_node) StderrLine: {'line': b'   52 |   double \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = current_pose_.position.y;\n'}
+[3.314034] (cpp_node) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.410614] (-) TimerEvent: {}
+[3.510901] (-) TimerEvent: {}
+[3.611308] (-) TimerEvent: {}
+[3.711589] (-) TimerEvent: {}
+[3.811899] (-) TimerEvent: {}
+[3.912264] (-) TimerEvent: {}
+[4.012647] (-) TimerEvent: {}
+[4.112979] (-) TimerEvent: {}
+[4.213330] (-) TimerEvent: {}
+[4.313749] (-) TimerEvent: {}
+[4.414108] (-) TimerEvent: {}
+[4.514373] (-) TimerEvent: {}
+[4.614678] (-) TimerEvent: {}
+[4.715019] (-) TimerEvent: {}
+[4.815287] (-) TimerEvent: {}
+[4.915582] (-) TimerEvent: {}
+[5.015923] (-) TimerEvent: {}
+[5.116327] (-) TimerEvent: {}
+[5.216631] (-) TimerEvent: {}
+[5.316901] (-) TimerEvent: {}
+[5.417317] (-) TimerEvent: {}
+[5.517668] (-) TimerEvent: {}
+[5.617952] (-) TimerEvent: {}
+[5.718282] (-) TimerEvent: {}
+[5.818647] (-) TimerEvent: {}
+[5.919019] (-) TimerEvent: {}
+[6.019278] (-) TimerEvent: {}
+[6.119578] (-) TimerEvent: {}
+[6.219921] (-) TimerEvent: {}
+[6.320198] (-) TimerEvent: {}
+[6.420479] (-) TimerEvent: {}
+[6.520762] (-) TimerEvent: {}
+[6.621091] (-) TimerEvent: {}
+[6.721381] (-) TimerEvent: {}
+[6.821673] (-) TimerEvent: {}
+[6.921973] (-) TimerEvent: {}
+[7.022310] (-) TimerEvent: {}
+[7.122581] (-) TimerEvent: {}
+[7.222852] (-) TimerEvent: {}
+[7.323117] (-) TimerEvent: {}
+[7.423406] (-) TimerEvent: {}
+[7.523682] (-) TimerEvent: {}
+[7.623997] (-) TimerEvent: {}
+[7.724278] (-) TimerEvent: {}
+[7.824574] (-) TimerEvent: {}
+[7.924908] (-) TimerEvent: {}
+[8.025337] (-) TimerEvent: {}
+[8.125616] (-) TimerEvent: {}
+[8.225883] (-) TimerEvent: {}
+[8.326162] (-) TimerEvent: {}
+[8.426571] (-) TimerEvent: {}
+[8.527021] (-) TimerEvent: {}
+[8.627274] (-) TimerEvent: {}
+[8.734810] (-) TimerEvent: {}
+[8.835112] (-) TimerEvent: {}
+[8.935417] (-) TimerEvent: {}
+[9.035727] (-) TimerEvent: {}
+[9.136073] (-) TimerEvent: {}
+[9.236344] (-) TimerEvent: {}
+[9.336627] (-) TimerEvent: {}
+[9.436937] (-) TimerEvent: {}
+[9.537211] (-) TimerEvent: {}
+[9.637476] (-) TimerEvent: {}
+[9.737809] (-) TimerEvent: {}
+[9.838171] (-) TimerEvent: {}
+[9.938438] (-) TimerEvent: {}
+[10.038770] (-) TimerEvent: {}
+[10.139248] (-) TimerEvent: {}
+[10.239564] (-) TimerEvent: {}
+[10.339828] (-) TimerEvent: {}
+[10.440209] (-) TimerEvent: {}
+[10.540490] (-) TimerEvent: {}
+[10.640770] (-) TimerEvent: {}
+[10.741099] (-) TimerEvent: {}
+[10.841582] (-) TimerEvent: {}
+[10.942130] (-) TimerEvent: {}
+[11.042386] (-) TimerEvent: {}
+[11.142653] (-) TimerEvent: {}
+[11.242927] (-) TimerEvent: {}
+[11.343206] (-) TimerEvent: {}
+[11.443510] (-) TimerEvent: {}
+[11.543850] (-) TimerEvent: {}
+[11.644326] (-) TimerEvent: {}
+[11.651784] (cpp_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable waypoint_node\x1b[0m\n'}
+[11.744430] (-) TimerEvent: {}
+[11.844749] (-) TimerEvent: {}
+[11.945208] (-) TimerEvent: {}
+[12.045629] (-) TimerEvent: {}
+[12.145874] (-) TimerEvent: {}
+[12.246329] (-) TimerEvent: {}
+[12.346750] (-) TimerEvent: {}
+[12.447055] (-) TimerEvent: {}
+[12.547330] (-) TimerEvent: {}
+[12.647622] (-) TimerEvent: {}
+[12.747978] (-) TimerEvent: {}
+[12.848233] (-) TimerEvent: {}
+[12.948585] (-) TimerEvent: {}
+[13.048991] (-) TimerEvent: {}
+[13.149324] (-) TimerEvent: {}
+[13.249599] (-) TimerEvent: {}
+[13.349833] (-) TimerEvent: {}
+[13.450113] (-) TimerEvent: {}
+[13.550381] (-) TimerEvent: {}
+[13.650637] (-) TimerEvent: {}
+[13.750932] (-) TimerEvent: {}
+[13.851351] (-) TimerEvent: {}
+[13.898762] (cpp_node) StdoutLine: {'line': b'[100%] Built target waypoint_node\n'}
+[13.915446] (cpp_node) CommandEnded: {'returncode': 0}
+[13.916031] (cpp_node) JobProgress: {'identifier': 'cpp_node', 'progress': 'install'}
+[13.924719] (cpp_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thedush/Videos/ros2_ws/build/cpp_node'], 'cwd': '/home/thedush/Videos/ros2_ws/build/cpp_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'thedush'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thedush'), ('OLDPWD', '/home/thedush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thedush'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thedush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thedush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thedush-HP-Laptop-15s-du3xxx:@/tmp/.ICE-unix/2617,unix/thedush-HP-Laptop-15s-du3xxx:/tmp/.ICE-unix/2617'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/thedush/fastrtps-profile.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eac17a34_e1fd_4742_a5a1_a22863dc6a30'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install/cpp_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thedush/Videos/ros2_ws/build/cpp_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thedush/Videos/ros2_ws/install/cpp_node:/opt/ros/humble')]), 'shell': False}
+[13.951460] (-) TimerEvent: {}
+[13.956571] (cpp_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.967641] (cpp_node) StdoutLine: {'line': b'-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node\n'}
+[13.998975] (cpp_node) StdoutLine: {'line': b'-- Set runtime path of "/home/thedush/Videos/ros2_ws/install/cpp_node/lib/cpp_node/waypoint_node" to ""\n'}
+[13.999218] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/package_run_dependencies/cpp_node\n'}
+[13.999317] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/parent_prefix_path/cpp_node\n'}
+[13.999450] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.sh\n'}
+[13.999619] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/ament_prefix_path.dsv\n'}
+[13.999697] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.sh\n'}
+[13.999749] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/environment/path.dsv\n'}
+[13.999797] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.bash\n'}
+[13.999843] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.sh\n'}
+[13.999889] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.zsh\n'}
+[13.999936] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/local_setup.dsv\n'}
+[14.000004] (cpp_node) StdoutLine: {'line': b'-- Installing: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.dsv\n'}
+[14.031159] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/ament_index/resource_index/packages/cpp_node\n'}
+[14.031303] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig.cmake\n'}
+[14.031356] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/cmake/cpp_nodeConfig-version.cmake\n'}
+[14.031424] (cpp_node) StdoutLine: {'line': b'-- Up-to-date: /home/thedush/Videos/ros2_ws/install/cpp_node/share/cpp_node/package.xml\n'}
+[14.032615] (cpp_node) CommandEnded: {'returncode': 0}
+[14.049272] (cpp_node) JobEnded: {'identifier': 'cpp_node', 'rc': 0}
+[14.050179] (-) EventReactorShutdown: {}
